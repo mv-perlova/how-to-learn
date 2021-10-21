@@ -7,6 +7,7 @@
   margin: auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 .header {
@@ -268,28 +269,37 @@
 .table__text_theme_dark {}
 
 .kaufman__triangle {
-  overflow: hidden;
   position: absolute;
-  right: -210px;
   top: 0px;
+  right: -210px;
   width: 877px;
   height: 877px;
   z-index: 1;
 }
 
 .footer {
+  position: relative;
   min-height: 350px;
+  height: 100%;
   background-color: black;
+
   color: aliceblue;
+  margin-top: 0;
+  margin-bottom: 0;
+
+
 }
 
 .footer__columns {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: auto;
-  bottom: 40px;
+  position: absolute;
   top: 60px;
+  bottom: 40px;
+  left: 64px;
+
+
   flex-basis: 711px;
   width: 90%;
   height: 200px;
@@ -338,6 +348,7 @@
 
 .footer__social-icons {
   margin-right: 10px;
+  margin-bottom: 0;
 }
 
 .footer__column-heading {
@@ -348,6 +359,6 @@
   margin-bottom: 20px;
 }
 
-.debug-border {
+/*.debug-border {
   border: red 2px inset;
-}
+}*/
