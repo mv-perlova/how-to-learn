@@ -1,0 +1,9 @@
+.resources__logo_link_arzamas {
+
+
+}
+
+.resources__logo_link_arzamas:hover {
+  opacity: 0.4;
+  transition: 2s;
+}

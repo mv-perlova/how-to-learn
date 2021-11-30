@@ -1,0 +1,9 @@
+.resources__logo_link_strelka {
+
+
+}
+
+.resources__logo_link_strelka:hover {
+  opacity: 0.4;
+  transition: 2s;
+}

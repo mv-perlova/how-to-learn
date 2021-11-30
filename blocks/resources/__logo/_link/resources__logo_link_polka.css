@@ -1,0 +1,9 @@
+.resources__logo_link_polka {
+
+
+}
+
+.resources__logo_link_polka:hover {
+  opacity: 0.4;
+  transition: 2s;
+}
